@@ -1,7 +1,6 @@
-import React, { useState, useEffect,Link } from 'react';
- import Axios from 'axios';
-import logo from './../images/logo.png'
- import Card1 from './../component/card1'
+import React, { useState, useEffect } from 'react';
+import Axios from 'axios';
+import Card1 from './../component/card1'
 
 function createCard(tourn_data) {
     return (

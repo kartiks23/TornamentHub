@@ -375,6 +375,10 @@ ul ~ a, ul ~ button {
   background-image: url('./images/show.png');
   background-size: cover;
 }
+.join{
+  background-image: url('./images/show.png');
+  background-size: cover;
+}
 /* Ride details */
 #details-wrap {
   max-width: 400px;

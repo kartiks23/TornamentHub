@@ -40,7 +40,7 @@ export default function OLogin() {
             <Link to="/organiser_signup" class="shortcut">Sign Up</Link>
           </li>
           <li>
-            <Link class="shortcut">HOLA AMINGO</Link>
+            <Link class="shortcut">HOLA AMIGO</Link>
           </li>
         </ul>
       </nav>
