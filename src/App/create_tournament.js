@@ -12,13 +12,7 @@ export default function Ctourn() {
     const [max_teams, setMaxteams] = useState('')
 
     const signup = (e) =>{
-    // console.log(username);
-    // console.log(start_date);
-    // console.log(end_date);
-    // console.log(Ttype);
-    // console.log(max_teams);
       e.preventDefault()
-    //   console.log("posting");
         Axios.post('http://localhost:8000/organiser_login/organiser_dashboard/create_tournament', {
             
             name: username, start_date: start_date, end_date: end_date , Ttype : Ttype , max_team : max_teams
