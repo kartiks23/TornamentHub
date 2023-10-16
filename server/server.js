@@ -116,44 +116,6 @@ app.get("/organiser_login/organiser_dashboard/view_tournament",(req,res) =>{
     })
 });
 
-
-
-//app.post("/player_login/player_dashboard/join_tournament",(req,res) =>{
-//     console.log("reached add player to tournament");
-//     tourn_name = req.body.tournament_name;
-//     player_name = req.body.player_name;
-   
-//     async function get_info()
-//     {
-//         var players_id;
-//         var tournaments_id;
-//         const p_id    = await db.execute("select id from player WHERE username = 'paras'");
-//         const t_id = await db.execute("select id from tournament WHERE name = ?",[tourn_name] );
-//         console.log(p_id);
-//         console.log(t_id);
-//     //     db.query("Insert into tournament_player (tournament_id , player_id) values (?,?)",[myObj.p_id, myObj.t_id],(err,result) => {
-//     //         if(err){
-//     //             console.log("fail")
-//     //             console.log(err)
-//     //             return err;
-                
-//     //         }
-//     //         else{
-//     //            console.log("saxx")
-               
-//     //         }
-//     //  })
-   
-//     }
-//     get_info();
-    
-   
-    
-// });
-
-
-
-
 app.post("/player_login/player_dashboard/join_tournament",(req,res) =>{
    // First search query to get tournament_id
        console.log("reached add player to tournament");
